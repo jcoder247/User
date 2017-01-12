@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<script type="text/javascript" src="user-functions.js"></script>
+<script type="text/javascript" src="js/bootstrap-filestyle.min.js"> </script>
+<title>User Form</title>
+</head>
+<body>
+<h1>Detail</h1>
+<hr/>
+<script>
+	  alert("6+7="+calc(6,7))
+</script>
+<form id="form1" runat="server">
+        <input type='file' id="imgInp" />
+        <img id="blah" src="#" alt="your image" />
+</form>
+<form>
+<input type="file" class="filestyle" data-classButton="btn btn-primary" data-input="false" 
+		data-classIcon="icon-plus" data-buttonText="Choose File">
+</form>
+<div></div>
+ 
+<script>
+var input = $( "input:file" ).css({
+  background: "yellow",
+  border: "3px red solid"
+});
+$( "div" )
+  .text( "For this type jQuery found " + input.length + "." )
+  .css( "color", "red" );
+$( "form" ).submit(function( event ) {
+  event.preventDefault();
+});
+</script>
+
+
+<!-- <script type="text/javascript">
+alert("6+7="+calc(6,7));
+</script> -->
+
+</body>
+</html>

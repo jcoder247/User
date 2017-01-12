@@ -1,0 +1,30 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#centeringDiv{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+#mainForm{
+  margin: auto;
+}
+
+#main
+{
+  line-height: 400px;
+  text-align:center; 
+  vertical-align:middle;
+}
+
+
+#usrform
+{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 14px; 
+}

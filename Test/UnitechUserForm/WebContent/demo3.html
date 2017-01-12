@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<script type="text/javascript" src="user-functions.js"></script>
+<script type="text/javascript" src="js/bootstrap-filestyle.min.js"> </script>
+ <link rel="stylesheet" type="text/css" href="css/style.css"> 
+<title>User Form</title>
+</head>
+<body>
+<h1>Detail</h1>
+<hr/>
+<form id="usrform">
+<table>
+<tr>
+	<td style="width:20%">
+		<img id="thumbnil" style="width:20%; margin-top:10px;"  src="img/person_icon.png" alt="image"/>
+	 	<br/> 
+		<input type="file" accept="image/*"  onchange="showMyImage(this)" />
+ 		<br/>	
+ 	</td>
+	<td style="width:20%">
+		NDIS#:<input type="text" name="ndis" value="ID">
+ 		<br/>
+		Name:<input type="text" name="name" value="Name">
+ 		<br/>
+		Address:<textarea name="address" form="usrform">Address</textarea>
+ 		<br/>
+		Phone Number:<input type="text" name="phonenumber" value="Phone Number">
+ 		<br/>
+		Next Of Kin:<input type="text" name="nextofkin" value="Next Of Kin">
+ 		<br/>
+		Date of Birth:<input type="text" name="dateofbirth" value="Date of Birth">
+ 		<br/>
+		Registered Device:<input type="text" name="registereddevice" value="No Device">
+ 		<br/>
+		Notes:<textarea name="notes" form="usrform">Notes</textarea>
+ 		<br/>
+ 	</td>
+</tr>
+</table>
+</form>
+<br/>
+<button type="submit" form="usrform" value="Submit">Save</button>
+<div></div>
+</body>
+</html>
